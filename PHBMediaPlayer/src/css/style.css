@@ -1,0 +1,40 @@
+/* style.css */
+
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: linear-gradient(to bottom, #f4f4f4, #dddddd);
+}
+
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 4, 0.0, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.slider {
+    -fx-pref-width: 200px;
+    -fx-background-color: transparent;
+}
+
+#playPause {
+    -fx-background-color: #2ecc71;
+    -fx-background-radius: 50%;
+    -fx-padding: 10px;
+}
+
+#playPause:hover {
+    -fx-background-color: #27ae60;
+}
+
+.media-view {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.6), 10, 0.5, 0, 0);
+    -fx-border-color: #444;
+    -fx-border-width: 2;
+}
